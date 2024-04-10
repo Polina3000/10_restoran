@@ -4,131 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<!-- Шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<!-- шрифты -->
     <title>А в реесторааане</title>
 </head>
 <body>
+    <!-- шапка -->
+<header class="header">
+    <img class="header-logo" src="/img/LOGO.png" alt="Logo">
+
+    <ul class="nav">
+        <li class="nav-li"><a class="nav-item" href="#">ГЛАВНАЯ</a></li>
+        <li class="nav-li"><a class="nav-item" href="#">МЕНЮ</a></li>
+        <li class="nav-li"><a class="nav-item" href="#">О НАС</a></li>
+        <li class="nav-li"><a class="nav-item" href="#">БРОНЬ</a></li>
+    </ul>
+
+    <img class="cart-img" src="/img/cart.png" alt="cart">
+    <div class="line"></div>
+
+    <div class="phone">
+        <div class="phone-holder">
+            <img class="phone-img" src="/img/phone.png" alt="phone">
+            <a class="phone-number" href="#">+999-888-76-54</a>
+        </div>
+        <p class="phone-text">Свяжитесь с нами для <br>бронирования</p>
+    </div>
+
+    <button class="button" type="submit" formmethod="get" formaction="index.html">ЗАКАЗ СТОЛИКА</button>
+</header>
+<!-- шапка -->
+
+
+
+
+
     
-    <div class="header">
-
-        <div class="container">
-        <div class="header-line">
-            <div class="header-logo">
-                <img src="/img/LOGO.png" alt="LOGO">
-            </div>
-
-            <div class="nav">
-                <a class="nav-item" href="@">ГЛАВНАЯ</a>
-                <a class="nav-item" href="@">МЕНЮ</a>
-                <a class="nav-item" href="@">О НАС</a>
-                <a class="nav-item" href="@">БРОНЬ</a>
-            </div>
-
-            <div class="cart">
-                <a href="#">
-                    <img class="cart-img" src="/img/cart.png" alt="cart">
-                </a>
-            </div>
-
-            <div class="phone">
-
-                <div class="phone-holder">
-                    <div class="phone-img">
-                        <img src="/img/phone.png" alt="phone">
-                    </div>
-                    <div class="number"> <a class="num" href="#">+999-888-76-54</a>
-                    </div>
-                    </div>
-                <div class="phone-text">Свяжитесь с нами для 
-                    <br>бронирования
+<!--     
+            <div class="header-down">
+                <h1 class="header-title">
+                    Добро пожаловать в <br>
+                    <span class="header-subtitle">
+                        Наш ресторан
+                    </span>
+                <div class="header-suptitle">
+                    ДОМ ЛУЧШЕЙ ЕДЫ
                 </div>
+                <div class="header-bth">
+                <a class="header-button" href="#">VIEW MENU</a>
+                </div>
+            </h1>
             </div>
+    
 
-            <div class="btn">
-                <a class="button" href="#">ЗАКАЗ СТОЛИКА</a>
+    </header>
+
+    <section>
+        <div class="cards">
+            <div class="container">
+        
+                <div class="cards-holder">
+        
+        
+                <div class="card">
+        
+                    <div class="card-image">
+                        <img class="card-img" src="/img/card.png" alt="">
+                    </div>
+                    <h2 class="card-title">
+                        Магическая <span>Атмосфера</span>
+                    </h2>
+                    <div class="card-desc">
+                        В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами
+                    </div>
+        
+                </div>
+        
+                <div class="card">
+        
+                    <div class="card-image">
+                        <img class="card-img" src="/img/card.png" alt="">
+                    </div>
+                    <h2 class="card-title">
+                        Лучшее качество<span>Еды</span>
+                    </h2>
+                    <div class="card-desc">
+                        Качество нашей 
+                        Еды - отменное!
+        
+                    </div>
+        
+                </div>
+        
+                <div class="card">
+        
+                    <div class="card-image">
+                        <img class="card-img" src="/img/card.png" alt="">
+                    </div>
+                    <h2 class="card-title">
+                        Недорогая<span>Еда</span>
+                    </h2>
+                    <div class="card-desc">
+                        Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!
+                    </div>
+        
+                </div>
+        
             </div>
-        </div>
-
-        <div class="header-down">
-            <h1 class="header-title">
-                Добро пожаловать в <br>
-                <span class="header-subtitle">
-                    Наш ресторан
-                </span>
-            <div class="header-suptitle">
-                ДОМ ЛУЧШЕЙ ЕДЫ
+        
+        
             </div>
-            <div class="header-bth">
-            <a class="header-button" href="#">VIEW MENU</a>
             </div>
-        </h1>
-        </div>
-        </div>
+    </section>
 
-    </div>
-
-
-    <div class="cards">
-    <div class="container">
-
-        <div class="cards-holder">
-
-
-        <div class="card">
-
-            <div class="card-image">
-                <img class="card-img" src="/img/card.png" alt="">
-            </div>
-            <h2 class="card-title">
-                Магическая <span>Атмосфера</span>
-            </h2>
-            <div class="card-desc">
-                В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами
-            </div>
-
-        </div>
-
-        <div class="card">
-
-            <div class="card-image">
-                <img class="card-img" src="/img/card.png" alt="">
-            </div>
-            <h2 class="card-title">
-                Лучшее качество<span>Еды</span>
-            </h2>
-            <div class="card-desc">
-                Качество нашей 
-                Еды - отменное!
-
-            </div>
-
-        </div>
-
-        <div class="card">
-
-            <div class="card-image">
-                <img class="card-img" src="/img/card.png" alt="">
-            </div>
-            <h2 class="card-title">
-                Недорогая<span>Еда</span>
-            </h2>
-            <div class="card-desc">
-                Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!
-            </div>
-
-        </div>
-
-    </div>
-
-
-    </div>
-    </div>
 
     <section class="history">
 
@@ -350,8 +342,8 @@
     </section>
 
     <footer class="footer">
-        <p class="footer-text">Copyright 2024 <br>trenirovka yopta <br>trenirovka yopta V2.0 <br>nu cheto escho pishu</p>
+        <p class="footer-text">Copyright 2024</p>
     </footer>
 
 </body>
-</html>
+</html> -->

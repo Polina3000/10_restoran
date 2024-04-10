@@ -1,10 +1,6 @@
 body {
-margin: 0;
-font-family: "Open Sans", sans-serif;
-}
-
-.container {
-    margin: 0px 166px;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 .header {
@@ -12,21 +8,32 @@ font-family: "Open Sans", sans-serif;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 60px 0 55px;
+    display: flex;
+    align-items: flex-start;
 }
 
-.header-line {
-padding-top: 50px;
-display: flex;
-align-items: center;
-justify-content: space-around;
+.header-logo {
+    margin: 0 0 0 250px;
+}
+
+.nav {
+    list-style: none;
+    margin: 20px 0 0 180px;
+}
+
+.nav-li {
+    float: left;
 }
 
 .nav-item {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
     margin-right: 25px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    /* на сайте отображается размер шрифта 17 */
+    font-size: 14px;
+    color: #ffffff;
     transition: color 0.3s linear;
 }
 
@@ -34,47 +41,50 @@ justify-content: space-around;
     color: #ff0000;
 }
 
-.cart {
-    position: relative;
-    border-right:1px solid #ffffff;
-    padding-right: 10px;
-    height: 50px;
-}
-
 .cart-img {
-    position: absolute;
-    top: 18px;
-    right: 7px;
+    display: inline;
+    margin: 20px 0 0 35px;
+
 }
 
-.phone-holder {
-    display: flex;
-    align-items: center;
+.line {
+    height: 51px;
+    margin: 0 0 0 20px;
+    border-left: 1px solid #ffffff;
 }
 
-.num {
-    color: #fff;
+.phone {
+    margin: 0 0 0 30px;
+
+}
+
+.phone-number {
+    margin: 0;
+    list-style: none;
     text-decoration: none;
-    font-weight: 700;
-    transition: color 0.3s linear;
-}
-
-.num:hover {
-    color: #df3400;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .phone-text {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 400;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .button {
+    width: 157px;
+    height: 47px;
+    margin: 0 165px 0 45px;
+    border: none;
+    font-weight: bold;
+    /* на сайте отображается размер шрифта 17 */
+    font-size: 14px;
+    color: #ffffff;
     background-color: #FF7400;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px 19px;
-    font-weight: 700;
+    cursor: pointer;
     transition: background-color 0.2s linear;
 }
 
@@ -82,6 +92,13 @@ justify-content: space-around;
     background-color: #df3400;
 }
 
+
+/* 
+.container {
+    margin: 0px 166px;
+}
+
+/* 
 .header-down {
     position: relative;
 }
@@ -547,4 +564,4 @@ color: #D67E34;
     .galery-left {
         margin-right: 0;
     }
-}
+} */
