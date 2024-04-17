@@ -274,137 +274,50 @@ body {
 
 }
 
-
-/* 
-.container {
-    margin: 0px 166px;
-}
-
-  
-.history {
-    margin-top: 166px;
-}
-
-.history-holder {
-    display: flex;
-    justify-content: space-between;
-}
-
-.history-title {
-    font-family: "Tinos", serif;
-    font-size: 54px;
-    font-weight: 400;
-    width: 444px;
-    text-align: center;
-    margin-top: 21px;
-}
-
-.history-title span {
-    color: #BC9060;
-}
-
-.history-desc {
-    color: #656363;
-    font-size: 16px;
-    width: 444px;
-    text-align: center;
-}
-
-.history-number {
-    display: flex;
-    width: 444px;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-
-.number-item {
-    margin-right: 60px;
-    text-align: center;
-    color: #BC9060;
-    font-size: 40px;
-}
-
-.number-item span {
-    display: block;
-    color: #000;
-    font-size: 20px;
-}
-
-.history-images {
-    position: relative;
-    width: 300px;
-    left: -80px;
-}
-
-.images-1 {
-    position: absolute;
-    z-index: 999;
-    top: 40px;
-    left: -600px;
-}
-
-.images-2 {
-    position: absolute;
-    z-index: 800;
-    top: -20px;
-    left: -400px;
-}
-
-.images-3 {
-    position: absolute;
-    z-index: 900;
-    top: 200px;
-    left: -320px;
-}
-
-.images-4 {
-    position: absolute;
-    z-index: 700;
-    width: 212px;
-    height: 180px;
-    color: #FFE8D0;
-    top: 25px;
-    left: -300px;
-}
-
 .black-block {
-    margin-top: 200px;
     background-image: url(/img/blackbg.jpg);
-    padding: 80px 0;
-}
-
-.black-block-container {
+    margin: 0 0 140px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-
-.left-title {
-    font-family: "Tinos", serif;
-    font-size: 52px;
-    font-weight: 400;
-    color: #D67E34;
-    margin-bottom: 20px;
+/* разобраться с отступами */
+.black-block-left {
+    margin: 80px 0 100px 165px;
 }
 
-.left-text {
-    font-family: "Open Sans", sans-serif;
+.black-block-title {
+    margin: 0 0 40px;
+    font-family: "Tinos", serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 52px;
+    color: #D67E34;
+}
+
+.black-block-text {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
     font-size: 24px;
-    font-weight: 700;
-    color: #fff;
+    color: #ffffff;
+}
+
+.dishes {
+
 }
 
 .dishes-title {
+    margin: 0 0 150px;
     font-family: "Tinos", serif;
-    font-size: 54px;
-    font-weight: 400;
+    font-weight: normal;
     text-align: center;
-    margin: 132px 0 139px;
+    font-size: 54px;
+    color: #000000;
 }
 
 .dishes-title span{
-color: #D67E34;
+    color: #D67E34;
 }
 
 .burgers {
@@ -412,21 +325,40 @@ color: #D67E34;
     justify-content: center;
 }
 
-.burgers-image {
-    margin-right: 20px;
+/* при флексе картинка искажается исправить */
+.img-pizza {
+    margin: 0 30px 0 0;
+
 }
 
-.burger-item {
+.burgers-list {
+    list-style: none;
+}
+
+.burger-list {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
+}
+
+/* добавить псевдокласс */
+.img-burger {
+    margin: 0 30px 30px 0;
 }
 
 .burger-text {
+    margin: 0;
     font-family: "Tinos", serif;
+    font-weight: normal;
+    text-align: center;
     font-size: 26px;
-    font-weight: 400;
-    margin-left: 20px;
+    color: #000000;
+}
+
+
+/* 
+.container {
+    margin: 0px 166px;
 }
 
 .menu {
